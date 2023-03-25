@@ -13,7 +13,7 @@ public class RestApi {
 		return "Hello World";
 	}
 	
-	@GetMapping(value="/hellow/{name}")
+	@GetMapping(value="/hello/{name}")
 	public String getHelloName(@PathVariable String name) {
 		return "Hello " + name;
 	}
